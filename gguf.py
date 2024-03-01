@@ -1,11 +1,8 @@
 import os
 import typer
-from fastapi import FastAPI
 from huggingface_hub import snapshot_download
 
 app = typer.Typer()
-
-fast_app = FastAPI()
 
 
 @app.command()
